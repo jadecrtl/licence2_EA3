@@ -7,7 +7,8 @@ class Exercice5 {
         System.out.println(compteInf(array, -3));
         System.out.println(compteInf(array, 12));
 
-        
+        int[] tab = {1,2,3,4,5};
+        System.out.println(mediane(tab));
     }
 
     //Question 1 :
@@ -24,9 +25,19 @@ class Exercice5 {
 
     //Question 2 :
 
-    public static int mediane(int[] t, int a) {
-        
-        return 0;
+    public static int mediane(int[] t) {
+        int c = 0;
+        if (t.length % 2 == 0) {
+            System.out.println("Le tableau contient un nombre pair de numéro dans le tableau donc ça ne marche pas.");
+        }
+        else{
+            int b = (t.length - 1)/2;
+            if (b == compteInf(t, t[b])) {
+                c = t[b];
+            }
+        }
+        System.out.println("La médiane est égal à :");
+        return c;
     }
 
 
