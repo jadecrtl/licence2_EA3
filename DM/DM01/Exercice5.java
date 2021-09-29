@@ -32,8 +32,10 @@ class Exercice5 {
         }
         else{
             int b = (t.length - 1)/2;
-            if (b == compteInf(t, t[b])) {
-                c = t[b];
+            for (int i=0; i<t.length; i++) {
+                if (b == compteInf(t, t[i])) {
+                    c = t[i];
+                }
             }
         }
         System.out.println("La médiane est égal à :");
