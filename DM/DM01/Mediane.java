@@ -1,4 +1,4 @@
-class Exercice5 {
+class Mediane {
     public static void main(String[] args) {
         
         //Création du tableau d'entier
