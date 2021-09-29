@@ -9,6 +9,8 @@ class Exercice5 {
 
         int[] tab = {1,2,3,4,5};
         System.out.println(mediane(tab));
+        int[] tab2 = {2,4,10,8,6};
+        System.out.println(mediane(tab2));
     }
 
     //Question 1 :
