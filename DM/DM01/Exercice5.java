@@ -3,8 +3,11 @@ class Exercice5 {
         int[] array = {9, 5, 3, 0, 1};
         System.out.println(compteInf(array, 4));
         System.out.println(compteInf(array, 0));
-        System.out.println(compteInf(array, 4));
+        System.out.println(compteInf(array, 6));
         System.out.println(compteInf(array, -3));
+        System.out.println(compteInf(array, 12));
+
+        
     }
 
     //Question 1 :
