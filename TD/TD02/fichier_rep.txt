@@ -1,0 +1,17 @@
+Exercice 1 :
+
+[0 | 3 | 1 | 2] <-- 3
+[0 | 3 | 1 | 2] <-- 2   = 6 comparaisons au total
+[0 | 1 | 3 | 2] <-- 1 
+
+Exercice 2 :
+
+    Supposons qu'on a :
+        - char[] tri selection(char[])
+        - int inf(char[][])
+    Entrée 9 tableaux T[][] de char <-- trouve le min entre 2 mots
+        fonction triSurTri(T).
+            n <-- Taille du tableau T
+        pour i <-- à i <-- n-1
+        T[i] = tri Selection(T[i]);
+        
