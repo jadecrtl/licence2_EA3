@@ -1,0 +1,14 @@
+Exo 1 :
+1)9 comparaisons et 7 affectations
+2)4 comparaisons et 0 affectations
+3)10 comparaisons et 10 affectations
+
+Exo 2 :
+public static boolean inf (int a, int b) {
+    if (a%2 == 0 && b%2 != 0) {
+        return true;
+    }
+    else if ((a%2 == 0) && (b%2 == 0) && a<b) {
+        return true;
+    }
+}

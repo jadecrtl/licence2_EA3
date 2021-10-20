@@ -1,0 +1,13 @@
+public class Exercice6 {
+
+    
+
+
+
+
+
+
+
+
+
+}
