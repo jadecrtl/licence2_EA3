@@ -20,7 +20,11 @@ public class Exercice5 {
 
     public static void main(String[] args) {
         int[] t = {-1,0,1,3,4,8};
+        int[] t2 = {1,2,3,4};
+        int[] t3 = {-1,0,0,1};
         System.out.println(chercheEle(t));//doit renvoyer true
+        System.out.println(chercheEle(t2));//doit renvoyer false
+        System.out.println(chercheEle(t3));//doit renvoyer false
     }
 
     //Dans le pire des cas il fait une comparaison
